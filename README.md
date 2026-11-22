@@ -14,31 +14,31 @@
 
 | 接口 | 拿到什么 | 价格 | 编号 |
 |---|---|---|---|
-| [YouTube 频道资料](https://dataxapi.com/zh/apis/youtube/channels/get/) | 按频道编号或账号名取 YouTube 频道资料：名称、简介、订阅数、视频数、总播放数、是否认证、创建日期，“关于”里列的链接（官网、其他社交账号）和频道关键词。 | $0.002 一次 | `youtube.channels.get` |
-| [YouTube 频道搜索](https://dataxapi.com/zh/apis/youtube/channels/search/) | 按搜索词找 YouTube 频道：名称、账号名、简介、订阅数、是否认证。 | $0.002 一次 | `youtube.channels.search` |
-| [YouTube 频道视频](https://dataxapi.com/zh/apis/youtube/channels/videos/list/) | 按频道编号或账号名取一页该 YouTube 频道的视频或 Shorts，可按最新或最热排：标题、简介、发布时间、播放数、点赞数、时长。 | $0.002 一次 | `youtube.channels.videos.list` |
-| [YouTube 频道帖子](https://dataxapi.com/zh/apis/youtube/channels/posts/list/) | 按频道编号或账号名取一页该 YouTube 频道“帖子”栏（原“社区”）里的帖子，从最新的开始：正文、图片、点赞数、附带的视频。 | $0.002 一次 | `youtube.channels.posts.list` |
+| [YouTube 频道资料](https://dataxapi.com/zh/apis/youtube/channels/get/?ref=gh-youtube-api) | 按频道编号或账号名取 YouTube 频道资料：名称、简介、订阅数、视频数、总播放数、是否认证、创建日期，“关于”里列的链接（官网、其他社交账号）和频道关键词。 | $0.002 一次 | `youtube.channels.get` |
+| [YouTube 频道搜索](https://dataxapi.com/zh/apis/youtube/channels/search/?ref=gh-youtube-api) | 按搜索词找 YouTube 频道：名称、账号名、简介、订阅数、是否认证。 | $0.002 一次 | `youtube.channels.search` |
+| [YouTube 频道视频](https://dataxapi.com/zh/apis/youtube/channels/videos/list/?ref=gh-youtube-api) | 按频道编号或账号名取一页该 YouTube 频道的视频或 Shorts，可按最新或最热排：标题、简介、发布时间、播放数、点赞数、时长。 | $0.002 一次 | `youtube.channels.videos.list` |
+| [YouTube 频道帖子](https://dataxapi.com/zh/apis/youtube/channels/posts/list/?ref=gh-youtube-api) | 按频道编号或账号名取一页该 YouTube 频道“帖子”栏（原“社区”）里的帖子，从最新的开始：正文、图片、点赞数、附带的视频。 | $0.002 一次 | `youtube.channels.posts.list` |
 
 ### 评论
 
 | 接口 | 拿到什么 | 价格 | 编号 |
 |---|---|---|---|
-| [YouTube 评论回复](https://dataxapi.com/zh/apis/youtube/comments/replies/list/) | 用评论列表给的回复标识，取一页这条 YouTube 评论下的回复：正文、回复者、点赞数。 | $0.002 一次 | `youtube.comments.replies.list` |
+| [YouTube 评论回复](https://dataxapi.com/zh/apis/youtube/comments/replies/list/?ref=gh-youtube-api) | 用评论列表给的回复标识，取一页这条 YouTube 评论下的回复：正文、回复者、点赞数。 | $0.002 一次 | `youtube.comments.replies.list` |
 
 ### 视频
 
 | 接口 | 拿到什么 | 价格 | 编号 |
 |---|---|---|---|
-| [YouTube 视频评论](https://dataxapi.com/zh/apis/youtube/videos/comments/list/) | 按视频编号或链接取一页 YouTube 评论，可按热门或最新排：正文、评论者、点赞数、回复数，以及取回复用的标识。 | $0.002 一次 | `youtube.videos.comments.list` |
-| [YouTube 视频详情](https://dataxapi.com/zh/apis/youtube/videos/get/) | 按视频编号或链接取一个 YouTube 视频：标题、简介、频道、发布时间、播放数、点赞数、评论数、时长，作者设的标签、分类、章节。 | $0.002 一次 | `youtube.videos.get` |
-| [YouTube 视频搜索](https://dataxapi.com/zh/apis/youtube/videos/search/) | 按搜索词找 YouTube 视频，可按相关或播放数排、按发布时间筛：标题、频道、播放数、时长。 | $0.002 一次 | `youtube.videos.search` |
-| [YouTube 视频字幕](https://dataxapi.com/zh/apis/youtube/videos/transcript/get/) | 按视频编号或链接取 YouTube 视频的字幕全文和带时间的分段，可用 lang 指定字幕语言。 | $0.002 一次 | `youtube.videos.transcript.get` |
+| [YouTube 视频评论](https://dataxapi.com/zh/apis/youtube/videos/comments/list/?ref=gh-youtube-api) | 按视频编号或链接取一页 YouTube 评论，可按热门或最新排：正文、评论者、点赞数、回复数，以及取回复用的标识。 | $0.002 一次 | `youtube.videos.comments.list` |
+| [YouTube 视频详情](https://dataxapi.com/zh/apis/youtube/videos/get/?ref=gh-youtube-api) | 按视频编号或链接取一个 YouTube 视频：标题、简介、频道、发布时间、播放数、点赞数、评论数、时长，作者设的标签、分类、章节。 | $0.002 一次 | `youtube.videos.get` |
+| [YouTube 视频搜索](https://dataxapi.com/zh/apis/youtube/videos/search/?ref=gh-youtube-api) | 按搜索词找 YouTube 视频，可按相关或播放数排、按发布时间筛：标题、频道、播放数、时长。 | $0.002 一次 | `youtube.videos.search` |
+| [YouTube 视频字幕](https://dataxapi.com/zh/apis/youtube/videos/transcript/get/?ref=gh-youtube-api) | 按视频编号或链接取 YouTube 视频的字幕全文和带时间的分段，可用 lang 指定字幕语言。 | $0.002 一次 | `youtube.videos.transcript.get` |
 
 ### 内容
 
 | 接口 | 拿到什么 | 价格 | 编号 |
 |---|---|---|---|
-| [YouTube 帖子详情](https://dataxapi.com/zh/apis/youtube/posts/get/) | 按帖子编号或链接取一条 YouTube 频道帖子（原“社区”帖）：正文、频道、图片、点赞数、附带的视频。 | $0.002 一次 | `youtube.posts.get` |
+| [YouTube 帖子详情](https://dataxapi.com/zh/apis/youtube/posts/get/?ref=gh-youtube-api) | 按帖子编号或链接取一条 YouTube 频道帖子（原“社区”帖）：正文、频道、图片、点赞数、附带的视频。 | $0.002 一次 | `youtube.posts.get` |
 
 ## 真实返回长什么样
 
@@ -149,4 +149,4 @@ No platform account, cookie or QR login. Paid per call from $0.002; errors are n
 
 MIT
 
-<sub>接口和价格取自 DataXAPI 的目录 720fc3ea8dadb865、价格版本 19；以 [dataxapi.com/zh/apis](https://dataxapi.com/zh/apis/?ref=gh-youtube-api) 为准。</sub>
+<sub>接口和价格取自 DataXAPI 的目录 dc959672dd18e2d0、价格版本 21；以 [dataxapi.com/zh/apis](https://dataxapi.com/zh/apis/?ref=gh-youtube-api) 为准。</sub>

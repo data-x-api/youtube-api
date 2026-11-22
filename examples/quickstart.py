@@ -21,7 +21,7 @@ SOURCE = "gh-youtube-api"
 SIGN_UP = f"https://dataxapi.com/zh/signin/?button={SOURCE}"
 ENDPOINT = "youtube.videos.search"
 PARAM = "query"
-PRICE = Decimal("0.002")  # 现价见 https://dataxapi.com/zh/apis/youtube/videos/search/
+PRICE = Decimal("0.002")  # 现价见 https://dataxapi.com/zh/apis/youtube/videos/search/?ref=gh-youtube-api
 
 
 def flatten(item: dict, prefix: str = "") -> dict:
